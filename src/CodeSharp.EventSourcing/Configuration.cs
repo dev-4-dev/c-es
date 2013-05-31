@@ -32,7 +32,7 @@ namespace CodeSharp.EventSourcing
             {
                 throw new ArgumentNullException("appName");
             }
-
+            //Test
             AppName = appName;
             Settings = new Dictionary<string, object>();
         }
